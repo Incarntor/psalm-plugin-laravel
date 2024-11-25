@@ -1,5 +1,5 @@
 {
-    "name": "psalm/plugin-laravel",
+    "name": "incarntr/psalm-plugin-laravel",
     "description": "Psalm plugin for Laravel",
     "license": "MIT",
     "type": "psalm-plugin",
