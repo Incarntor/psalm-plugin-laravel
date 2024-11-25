@@ -27,7 +27,7 @@
         "orchestra/testbench-core": "^8.22 || ^9.0",
         "symfony/console": "^6.0 || ^7.0",
         "symfony/finder": "^6.0 || ^7.0",
-        "vimeo/psalm": "^5.20"
+        "incarntr/psalm": "^5.20"
     },
     "require-dev": {
         "laravel/framework": "^10.48 || ^11.0",
@@ -63,6 +63,12 @@
             "pluginClass": "Psalm\\LaravelPlugin\\Plugin"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Incarntor/psalm.git"
+        }
+    ],
     "scripts": {
         "lint": "phpcs --report-full --report-summary --colors -n -s",
         "lint-fix": "phpcbf -n",
